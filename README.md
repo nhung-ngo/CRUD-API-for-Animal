@@ -4,7 +4,7 @@
 #### GET /animals/all
 #### http://localhost:8080/animals/all
 #### Response
-[
+
 '''
 {
         "animalID": 1,
@@ -13,17 +13,19 @@
         "species": "Bird",
         "habitat": "Forest",
         "description": "A vibrant bird with blue feathers."
-    },
-    {
+},
+'''
+'''
+{
         "animalID": 5,
         "name": "Golden Poison Frog",
         "scientificName": "Phyllobates terribilis",
         "species": "Amphibian",
         "habitat": "forest",
         "description": "A small, bright yellow frog, considered one of the most toxic animals on Earth."
-    }
-    '''
-    ]
+}
+'''
+    
 #### GET /animals/{animalId}
 #### http://localhost:8080/animals/5
 #### Response
