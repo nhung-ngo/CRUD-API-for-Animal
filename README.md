@@ -1,5 +1,5 @@
 
-## Database name is animals_api
+#### Database name is animals_api
 
 ## GET /animals/all
 ## http://localhost:8080/animals/all
