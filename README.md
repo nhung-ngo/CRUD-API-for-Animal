@@ -1,11 +1,12 @@
 
-'Database name is animals_api'
+## Database name is animals_api
 
-'GET /animals/all'
-'http://localhost:8080/animals/all'
-Response
+## GET /animals/all
+## http://localhost:8080/animals/all
+## Response
 
-'''{
+'''
+{
         "animalID": 1,
         "name": "Blue Jay",
         "scientificName": "Cyanocitta cristata",
@@ -20,7 +21,8 @@ Response
         "species": "Amphibian",
         "habitat": "forest",
         "description": "A small, bright yellow frog, considered one of the most toxic animals on Earth."
-    }'''
+    }
+    '''
     
 'GET /animals/{animalId}'
 'http://localhost:8080/animals/5'
