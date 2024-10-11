@@ -4,7 +4,7 @@
 #### GET /animals/all
 #### http://localhost:8080/animals/all
 #### Response
-
+[
 '''
 {
         "animalID": 1,
@@ -23,7 +23,7 @@
         "description": "A small, bright yellow frog, considered one of the most toxic animals on Earth."
     }
     '''
-    
+    ]
 #### GET /animals/{animalId}
 #### http://localhost:8080/animals/5
 #### Response
